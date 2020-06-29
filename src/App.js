@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import { Router } from '@reach-router';
 import QuoteForm from './components/quote_input_screen';
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
         </h1>
       </header>
       <body>
-        <QuoteForm />
+        {/* <Router> */}
+        <QuoteForm path="/" />
+        {/* </Router> */}
       </body>
     </div>
   );
